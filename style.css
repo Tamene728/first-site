@@ -1,5 +1,45 @@
-.container-1 {
+header {
+    height: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
+    background-color: #1F2937;
     flex: 1 1 0%;
+}
+
+div.container-1 {
+    width: 30%;
+    margin-left: auto;
+    display: flex;
+
+}
+
+div.item-1 {
+    color: #E5E7EB;
+    font-size: 18px; 
+    width: 60px;
+    flex: 1;
+    
+}
+
+div.item-2 {
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 60px;
+    flex: 1;
+}
+
+div.item-3 {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 60px;
+    flex: 1;
+}
+
+div.item-4 {
+    flex: 1;
+    color: #E5E7EB;
+    flex: 2;
 }
