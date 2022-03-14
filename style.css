@@ -149,3 +149,50 @@ div.quote-author {
     margin-left: 75%;
     font-weight: bold;
 }
+
+.sec-3 {
+    background-color: white;
+    height: 350px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.box-9 {
+    width: 74%;
+    height: 175px;
+    background-color: #3882F6;
+    border-radius: 1em;
+}
+
+div.content-1 {
+    flex: 3;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+div.content-2 {
+    flex:1;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.heading-3 {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+.content-4 {
+    color: #E5E7EB;
+    font-weight: bold;
+}
+.button-2 {
+    border-style: bold, white solid;
+    border-radius: 1em;
+}
