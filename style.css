@@ -166,6 +166,7 @@ div.box-9 {
     height: 175px;
     background-color: #3882F6;
     border-radius: 1em;
+    display: flex;
 }
 
 div.content-1 {
@@ -178,21 +179,29 @@ div.content-1 {
 div.content-2 {
     flex:1;
     text-align: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+    background-color: #3882F6;
 }
 
 div.heading-3 {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 .content-4 {
     color: #E5E7EB;
     font-weight: bold;
+    margin-top: 10px;
 }
-.button-2 {
+div.button-2 {
     border-style: bold, white solid;
     border-radius: 1em;
+    background-color:#3882F6;
+    font-size: medium;
+    margin: 10px 20px;
+    color: #F9FAF8;
 }
